@@ -1,4 +1,3 @@
-import React from 'react'
 import Cards from '@/components/ui/Cards'
 import linux from '../assets/linux.png'
 
