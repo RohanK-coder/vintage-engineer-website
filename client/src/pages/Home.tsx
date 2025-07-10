@@ -1,5 +1,3 @@
-
-import ResponsiveAppBar from '../components/ResponsiveAppBar'
 import HomeImage from "../assets/homeImage.jpeg"
 import {
   Tooltip,
@@ -10,9 +8,7 @@ import {
 export default function Home() {
   return (
     <div className='flex flex-col'>
-      <div className=''>
-        <ResponsiveAppBar/>
-      </div>
+      
       <div className='h-[92.5vh] w-full  overflow-hidden'>
         <img
           src={HomeImage}
